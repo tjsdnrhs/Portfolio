@@ -62,6 +62,9 @@ path:hover {
     background: #87CEFA;
   }
 /* sec-0 */
+#sec0, #sec1, #sec2, #sec3, #sec5 {
+    display: none;
+}
 /* sec-1 */
 
 .sec1-container {
@@ -329,4 +332,134 @@ path:hover {
     background: #87CEFA;
 }
 /* sec-4 */
+.sec4-container {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
+    border: 1px solid #fff;
+}
+.sec4-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.sec4-inner div {
+}
+.sec4-title {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+}
+.sec4-example {
+    height: 130px;
+    margin-top: 30px;
+    border: 1px solid #87CEFA;
+}
+.sec2-Tech-Box a {
+    border: 1px solid #87CEFA;
+    color: #87CEFA;
+    font-size: 1.3rem;
+    padding: 5px 5px;
+    border-radius: 15px;
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+}
+.sec2-Tech-Box a:hover {
+    color: #000;
+    background: #87CEFA;
+}
+.sec4-btn-wrap {
+    display: flex;
+    width: 30%;
+    margin: auto auto;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.sec4-slide-btn {
+    /* border: 1px solid #f00; */
+    display: block;
+    width: 10px;
+    height: 20px;
+    background: url(./img/arr_01.png) center center/contain no-repeat;
+    text-indent: -9999px;
+}
+.sec4-slide-btn.right {
+    background-image: url(./img/arr_02.png);
+}
+.sec4-slide-icons {
+    display: flex;
+    margin: auto 0;
+}
+.sec4-slide-icons li {
+    width: 10px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 0 2px;
+    text-indent: -9999px;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+}
+.sec4-slide-icons li.active {
+    width: 20px;
+    background: #87CEFA;
+}
 /* sec-5 */
+
+.sec5-container {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.sec5-photoBox {
+    width: 340px;
+    height: 500px;
+    display: flex;
+}
+.sec5-photo {
+    width: 340px;
+    height: 400px;
+}
+.sec5-txtBox {
+    width: 725px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.sec5-tit {
+    width: 725px;
+    height: 60px;
+    margin-top: 10px;
+}
+.sec5-sub-tit {
+    width: 725px;
+    height: 320px;
+    margin-top: 10px;
+}
+.sec5-linkBox {
+    width: 725px;
+    height: 60px;
+    margin-top: 20px;
+}
+.sec5-linkBox a {
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 0.8rem 2.4rem;
+    color: #87CEFA;
+    background: rgba(135, 206, 250, 0.3) ;
+    transition: 0.2s;
+}
+.sec5-linkBox a:hover {
+    color: #000;
+    background: #87CEFA;
+}
