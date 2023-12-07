@@ -6,8 +6,7 @@ new fullpage('#fullpage', {
 
 });
 
-const Body = document.querySelector('body');
-const Nav_btn = document.querySelector('#nav-icon');
+
 
 // section3 slider
 const s_Icons = document.querySelectorAll('.slide-icons li');
@@ -77,6 +76,3 @@ Bg.style.backgroundImage = `url(./img/sec2_bg_${[i]}.png)`;
 
 s_Left.addEventListener('click', prev);
 
-Nav_btn.addEventListener('click', () => {
-Body.classList.toggle('nav-active');
-});
