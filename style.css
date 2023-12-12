@@ -339,7 +339,7 @@
     opacity: 0;
     transition: 0.3s;
   }
-  .sec4-content.on {
+  .sec4-content.show {
     opacity: 1;
     transition: 0.3s;
   }
